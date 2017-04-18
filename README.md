@@ -12,7 +12,7 @@ Maven
 <dependency>
   <groupId>com.github.moove-it</groupId>
   <artifactId>fakeit</artifactId>
-  <version>v0.1</version>
+  <version>v0.2</version>
 </dependency>
 ```
 or Gradle:
@@ -24,14 +24,14 @@ allprojects {
 }
   
 dependencies {
-  compile 'com.github.moove-it:fakeit:v0.1'
+  compile 'com.github.moove-it:fakeit:v0.2'
 }
 ```
 
 Basic usage
 --------
 
-Fakeit can be used in Java and Kotlin Android apps.
+Fakeit can be used in Java and Kotlin Android apps. Run the sample app to check all the available models and generate some random values.
 
 First you need to initialize Fakeit:
 
@@ -56,22 +56,39 @@ This is the current list of fake data models available:
 
 - Address
 - Ancient
+- App
 - Artist
+- Bank
 - Beer
 - Book
 - Business
 - Card
 - Cat
 - Chuck Norris
+- Code
+- Company
 - Compass
 - Demographic
+- Educator
 - Esport
 - File
 - Food
 - Friends
 - Game of Thrones
+- Hacker
 - Harry Potter
+- Hey Arnold
+- Hipster
+- Internet
+- Job
+- Lord of the Rings
+- Lorem
+- Music
 - Name
+- Phone number
+- Pokemon
+- Rick and Morty
+- Rock band
         
 
 Questions and issues
@@ -82,7 +99,7 @@ For bug reports and feature requests, use [Github issue tracker](https://github.
 Contributing
 --------
 
-All contributions are welcome!
+See the [contribution guide](CONTRIBUTING.md).
 
 License
 --------
